@@ -1,0 +1,1 @@
+document.write("Hello world!"); document.write("Lawand"); document.write("17");
