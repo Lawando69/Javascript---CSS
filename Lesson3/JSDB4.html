@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Debugging Exercise 4</title>
+        <style>
+            /*CSS*/
+            #titleText{
+            font-family: Arial, Helvetica, sans-serif;
+            color: darkblue;
+            font-size: 36px;
+            text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="titleText">Player 1 vs Player 2</h1>
+        <script>
+            /*javascript*/
+            var player1 = 0;
+            var player2 = 0;
+            player1Score = 20;
+            player2Score = 30;
+            if(player1Score > player2Score){
+                document.write("Player 1 wins with a score of: ", player1Score, "<br>");
+            }
+            else if(player1Score < player2Score){
+                document.write("Player 2 wins with a score of: ", player2Score, "<br>");
+            }
+            else{
+                document.write("Draw");
+            }
+        </script>
+    </body>
+</html>

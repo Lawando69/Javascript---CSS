@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>While loops</title>
+        <style>
+            #main{
+                width: 800px;
+                height: 600px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 0px;
+            }
+            h1{
+                color: white;
+                background-color: darkblue;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="main">
+            <h1>Javascript while loops</h1>
+        </div>
+        <script>
+            //javascript
+            var name = "";
+            var counter = 0;
+
+            while(counter < 3){
+                name = prompt("Enter your name: ");
+                document.write("Your name is ", name, "<br>");
+                counter += 1
+            }
+        </script>
+    </body>
+</html>
