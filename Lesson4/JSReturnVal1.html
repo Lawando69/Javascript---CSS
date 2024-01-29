@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Return values Exercise 1</title>
+    </head>
+    <body>
+        <script>
+            function enterScores(){
+                var number = 0;
+                number = parseInt(prompt("Enter a number: "));
+
+                if(number > 10){
+                    return "Excelent!";
+                }
+                else if(number > 0){
+                    return "Good";
+                }
+                else{
+                    return "Try again";
+                }
+            }
+            var message = "";
+            message = enterScores();
+            document.write(message);
+        </script>
+    </body>
+</html>

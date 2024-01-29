@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Function Exercise 1</title>
+    </head>
+    <body>
+        <script>
+            function enterPassword(){
+                userInput = "";
+                password = "1234";
+                counter = 0;
+
+                while(userInput != password && counter < 3){
+                    userInput = prompt("Enter a password: ");
+                    if(userInput != password){
+                        alert("Sorry password incorrect, try again");
+                        counter += 1;
+                    }
+                    else{
+                        document.write("Access granted");
+                    }
+                }
+            }
+            enterPassword();
+        </script>
+    </body>
+</html>
